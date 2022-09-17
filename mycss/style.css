@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+
+.container
+{
+    background-image: linear-gradient(rgba(24, 27, 95, 0.793), rgba(0, 0, 0, 0.787)),
+    url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+    height:100%;
+}
+
+
+/* xoxoxoxoxox   NAVIGATION BAR ALIGNMENT   xoxoxoxoxxo */
+/* xoxoxoxoxox   NAVIGATION BAR ALIGNMENT   xoxoxoxoxxo */
+/* xoxoxoxoxox   NAVIGATION BAR ALIGNMENT   xoxoxoxoxxo */
+/* xoxoxoxoxox   NAVIGATION BAR ALIGNMENT   xoxoxoxoxxo */
+
+
+.nav_bar
+{
+    width:100%;
+    margin-top:10px;
+    /* background-color:aqua; */
+   
+}
+
+/* xoxoxox  logo logo logo  xoxox */
+/* xoxoxox  logo logo logo  xoxox */
+.mylogo
+{
+    /* background-color: #0a0a0a; */
+    width:fit-content;
+    height:fit-content;
+}
+.mylogo img
+{
+    width:120px;
+    height:50px;
+}
+
+/* xoxoxxoo list : HORIZINTAL ALIGNMENT xxoxoxoxo */
+
+.list li
+{
+    display:inline-block;
+}
+
+/* xoxoxo xoxo  LIST LIST  LIST  xoxoxoxo xoxoxo */
+.list
+{
+    /* background-color:orangered; */
+    width:590px;
+    height:30px;
+    text-align:center;
+}
+.list li
+{
+    font-size:25px ;
+    margin: 0 20px 0 20px;
+    color:#ffbb00;
+    padding:10px;
+    
+}
+.list .list-item:hover
+{
+    background-color: #f43817;
+    color:#ffbb00;
+    cursor:pointer;
+    padding:10px;
+}
+
+
+
+/* xoxoxo xoxo  Order BUTTON  xoxoxoxo xoxoxo */
+.button-small button
+{
+    background-color:#f07979;
+    border:none;
+    width:130px;
+    height:30px;
+}
+
+.button-small button:hover
+{
+    background-color:#f73d3d;
+    color:#f0f8ff;
+    cursor:pointer;
+}
+
+/* xoxox Alignng elements of NAV BAR using flex xoxox */
+/* xoxox Alignng elements of NAV BAR using flex xoxox */
+/* xoxox Alignng elements of NAV BAR using flex xoxox */
+/* xoxox Alignng elements of NAV BAR using flex xoxox */
+.nav_bar
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+/* xoxoxoxo  CONTENT SECTION  xoxoxoxo */
+/* xoxoxoxo  CONTENT SECTION  xoxoxoxo */
+/* xoxoxoxo  CONTENT SECTION  xoxoxoxo */
+
+.content
+{
+    /* background-color:#f07979; */
+    width:100%;
+    height:600px;
+}
+
+.container
+{
+    display:flex;
+    flex-direction:column;
+}
+/* xoxoxo positioning of elements inside "CONTENT" container */
+
+.content
+{
+    position:relative;
+}
+
+.content-heading
+{
+    text-align:center;
+    color:#ffbb00;
+    width:780px;
+    position:absolute;
+    top:80px;
+    right:300px;
+    font-family:Dela Gothic One;
+    font-size: 70px;
+}
+
+
+/* xoxoxo center button xoxox */
+/* xoxoxo center button xoxox */
+/* xoxoxo center button xoxox */
+
+.button-large
+{
+    position:absolute;
+    bottom:120px;
+    left:550px;
+    width:230px;
+    height:50px;
+    font-size: 25px;
+    background-color: #ff6347;
+    font-weight: bold;
+    color:#ffffff;
+    border:none;
+}
+.button-large:hover
+{
+    background-color: #f43817;
+    color:black;
+    cursor:pointer;
+}
+
+
+/* xoxoxo scroll icon xoxox */
+/* xoxoxo scroll icon xoxox */
+
+.bottom
+{
+    position:absolute;
+    bottom:40px;
+    right:30px;
+    border-radius: 100px;
+    border:2px solid rgba(255, 255, 0, 0);
+}
+
+
+
+.bottom:hover
+{
+    border-radius:100px;
+    border:2px solid yellow;
+    cursor:pointer;
+   
+}
