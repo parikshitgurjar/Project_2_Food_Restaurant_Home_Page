@@ -1,6 +1,6 @@
 # Project 2 : Food Restaurant Home Page
 
-- Click here for live demo of the Project on [ NETLIFY ](https://parikshitproject2.netlify.app/ "Parikshit Project 1")
+- Click here for live demo of the Project on [ NETLIFY ](https://parikshitproject2.netlify.app/ "Parikshit Project 2")
 
 <br/>
 
